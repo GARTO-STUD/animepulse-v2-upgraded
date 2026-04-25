@@ -19,5 +19,4 @@ id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
 # wrangler secret put TELEGRAM_CHANNEL_ID      (optional)
 
 # ── Cron Trigger (Auto-Pilot) ─────────────────────────────────
-[triggers]
-crons = ["0 */6 * * *"]
+

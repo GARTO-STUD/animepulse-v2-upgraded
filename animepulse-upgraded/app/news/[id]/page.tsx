@@ -2,6 +2,7 @@
  * /news/[id] — Article detail page
  * Server Component with dynamic metadata + JSON-LD structured data
  */
+export const runtime = 'edge';
 import { Metadata } from 'next';
 import NewsDetailClient from './NewsDetailClient';
 import { getFirebaseToken, fsVal } from '@/lib/firebase-rest';

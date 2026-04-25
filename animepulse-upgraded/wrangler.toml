@@ -17,6 +17,3 @@ id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
 # wrangler secret put FIREBASE_SERVICE_ACCOUNT_KEY
 # wrangler secret put TELEGRAM_BOT_TOKEN       (optional)
 # wrangler secret put TELEGRAM_CHANNEL_ID      (optional)
-
-# ── Cron Trigger (Auto-Pilot) ─────────────────────────────────
-

@@ -1,0 +1,4 @@
+# Cloudflare Pages — next-on-pages handles all routing via edge functions.
+# This file is intentionally minimal; do NOT add SPA-style rewrites here
+# as they conflict with Next.js dynamic routes ([id], [slug]).
+/api/*  /api/:splat  200
